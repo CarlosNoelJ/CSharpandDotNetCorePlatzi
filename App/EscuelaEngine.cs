@@ -56,22 +56,22 @@ namespace CoreEscuela
 
         public List<ObjetoEscuelaBase> GetObjetosEscuela()
         {
-            var listaObj = new List<ObjetoEscuelaBase>();
-            listaObj.Add(Escuela);
-            listaObj.AddRange(Escuela.Cursos);
+            var listObj = new List<ObjetoEscuelaBase>();
+                listObj.Add(Escuela);
+                listObj.AddRange(Escuela.Cursos);
 
-            foreach (var curso in Escuela.Cursos)
-            {
-                listaObj.AddRange(curso.Asignaturas);
-                listaObj.AddRange(curso.Alumnos);
-
-                foreach (var alumno in curso.Alumnos)
+                foreach (var curso in Escuela.Cursos)
                 {
-                    listaObj.AddRange(alumno.Evaluaciones);
-                }
-            }
+                    listObj.AddRange(curso.Asignaturas);
+                    listObj.AddRange(curso.Alumnos);
 
-            return listaObj;
+                    foreach (var alumno in curso.Alumnos)
+                    {
+                        listObj.AddRange(alumno.Evaluaciones);
+                    }
+                }
+
+            return listObj;
         }
 
         private void CargarAsignaturas()
