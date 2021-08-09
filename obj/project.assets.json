@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Platzi\\Curso de c# con .net core\\platzi-curso-csharp\\Etapa1.csproj",
-      "projectName": "Etapa1",
-      "projectPath": "D:\\Platzi\\Curso de c# con .net core\\platzi-curso-csharp\\Etapa1.csproj",
+      "projectUniqueName": "D:\\Platzi\\Curso de c# con .net core\\Platzi_Curso_CSharp_NetCore\\Etapa5.csproj",
+      "projectName": "Etapa5",
+      "projectPath": "D:\\Platzi\\Curso de c# con .net core\\Platzi_Curso_CSharp_NetCore\\Etapa5.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\Platzi\\Curso de c# con .net core\\platzi-curso-csharp\\obj\\",
+      "outputPath": "D:\\Platzi\\Curso de c# con .net core\\Platzi_Curso_CSharp_NetCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -716,7 +716,6 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "targetAlias": "netcoreapp2.1",
           "projectReferences": {}
         }
       },
@@ -728,26 +727,18 @@
     },
     "frameworks": {
       "netcoreapp2.1": {
-        "targetAlias": "netcoreapp2.1",
         "dependencies": {
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
           }
         },
         "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
+          "net461"
         ],
         "assetTargetFallback": true,
-        "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "warn": true
       }
     }
   }
