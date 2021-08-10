@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XF83jyVk5nKaBJEMCMx31V4RaDhXke0c6xNKWYhHD9zXRH6rV7343xItmT6EGj8JC8fcZf37sAOYIiiL534IMw==",
+  "dgSpecHash": "voMcv6RFOC+SbXFc7vY6FhEQBa5QFIFvzMH2/cFvZZu3TEzD1gp2gFepEFlHx0nnPWHCe53vFpEbRv0ntwQakw==",
   "success": true,
-  "projectFilePath": "D:\\Platzi\\Curso de c# con .net core\\Platzi_Curso_CSharp_NetCore\\Etapa5.csproj",
+  "projectFilePath": "d:\\Platzi\\Curso de c# con .net core\\Platzi_Curso_CSharp_NetCore\\Etapa5.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
